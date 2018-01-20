@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Theme Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+
+  </head>
+
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+                <a class="navbar-brand" href="#" style="width:161.6px;">CC区创文</a>
+        </div>
+        <div id="navbar" class="">
+        <ul class="nav navbar-nav navbar-left">
+            <li class="active"><a href="#">首页</a></li>
+            <li><a href="#about">About</a></li>
+            <li ><a href="#contact">Contact</a></li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right"> 
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> 注册</a></li> 
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li> 
+        </ul> 
+        
+        </div>
+    </div>
+</nav>
+<div class="container  row" >
+    <div class="row" style="">               
+        <div class="list-group  col-lg-2 col-md-2 col-sm-2" style="background-color:#333;padding-right:0px;" >
+            <a href="#" class="list-group-item  text-center navbar-inverse" style=""  >
+                <p class="list-group-item-heading " >
+                    <span class="glyphicon glyphicon-edit ">代办理
+                </p>
+            </a>
+            <a href="#" class="list-group-item  text-center" style=""  >
+                <p class="list-group-item-heading">
+                    <span class="glyphicon glyphicon-check">已办理
+                </p>
+            </a>
+            <div class="sidebar-menu">
+                <a href="#userMeun" class="list-group-item  text-center nav-header menu-first collapsed" data-toggle="collapse" style="background-color:transparent">
+                    <p class="list-group-item-heading " >
+                        <span class="glyphicon glyphicon-user"></span>个人中心
+                        <span class="caret"></span>
+                    </p></a>
+                <ul id="userMeun" class="text-center nav nav-list collapse menu-second" style="">
+                    <li><a id="Man" href="#message" style="" data-toggle="tab"><span class="glyphicon glyphicon-user"></span> 个人信息</a></li>
+                    <li><a id="Man" href="#count" data-toggle="tab"><span class="glyphicon glyphicon-lock"></span> 账号设置</a></li>
+                    <li><a id="Man" href="#save" data-toggle="tab"><span class="glyphicon glyphicon-lock"></span> 安全信息</a></li>
+                
+                </ul>
+            </div>
+        </div>
+        <div id="myTabContent" class="tab-content col-lg-10 col-md-10 col-sm-10" style="padding-left:10px;color:black">
+                <div class="tab-pane fade in active" id="message">
+                    <div style="padding: 10px 15px 0px;width:100%;height:400" >
+                            <form class="bs-example bs-example-form" role="form" >
+                                <div class="input-group " style="width:90%;height:90px">
+                                    <span class="input-group-addon" style="width:100px">头像</span>
+                                    <span type="text" class="form-control" style="width:100%;height:90px" placeholder="twitterhandle">
+                                            <a href="#" class="thumbnail" style="width:80px;height:80px;">
+                                                    <img src="/wp-content/uploads/2014/06/kittens.jpg"
+                                                         alt="通用的占位符缩略图">
+                                                </a>
+                                    </span>
+                                </div>
+                                <br>
+                                <div class="input-group " style="width:90%;height:90px">
+                                        <span class="input-group-addon" style="width:100px;">签名</span>
+                                        <input type="text" class="form-control" style="width:100%;height:100%;">
+                                    </div>
+                                <br>
+                                <div class="input-group " style="width:90%;">
+                                    <span class="input-group-addon" style="width:100px;">个人信息</span>
+                                    <span type="text" class="form-control" style="width:100%;height:100%;">
+                                        <div class="input-group a" style="width:100%;">
+                                            <span class="input-group-addon" style="width:100px;">账号</span>
+                                            <input type="text" class="form-control" style="width:100%;height:100%;" readonly="value">
+                
+                                        </div>
+                                        <div class="input-group a" style="width:100%;">
+                                            <span class="input-group-addon" style="width:100px;">姓名</span>
+                                            <input type="text" class="form-control" style="width:100%;height:100%;">
+                                             
+                                        </div>
+                                        <div class="  col-lg-6 col-md-6 col-sm-6 row">
+                                                <div class="input-group a" style="width:100%;">
+                                                        <span class="input-group-addon" style="width:100px;">邮政编码</span>
+                                                        <input type="text" class="form-control" style="width:100%;height:100%;">
+                                                 
+                                                    </div>
+                                                    <div class="input-group a" style="width:100%;">
+                                                        <span class="input-group-addon" style="width:100px;">电话</span>
+                                                        <input type="text" class="form-control" style="width:100%;height:100%;">                 
+                                                    </div>
+                                        </div>
+                                        <div class="  col-lg-6 col-md-6 col-sm-6 " style="margin-left:30px;padding-right:0px">  
+                                                    <div class="input-group a" style="width:100%;">
+                                                        <span class="input-group-addon" style="width:100px;">传真</span>
+                                                        <input type="text" class="form-control" style="width:100%;height:100%;">
+                                                            
+                                                    </div>
+                                                    <div class="input-group a" style="width:100%;">
+                                                        <span class="input-group-addon" style="width:100px;">电子邮件</span>
+                                                        <input type="text" class="form-control" style="width:100%;height:100%;">
+                                                            
+                                                    </div>
+                                        </div>
+                                      
+                                        <div class="input-group a" style="width:100%;padding-top:10px">
+                                            <span class="input-group-addon" style="width:100px;">地址</span>
+                                            <input type="text" class="form-control" style="width:100%;height:100%;">
+                                                
+                                        </div>
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                           
+                            
+                </div>
+                <div class="tab-pane fade" id="count">
+                        <div style="padding: 10px 15px 0px;width:100%;height:400" >
+                                <form class="bs-example bs-example-form" role="form" >
+                                    <div class="input-group " style="width:90%;height:90px">
+                                        <span class="input-group-addon" style="width:100px">头像</span>
+                                        <span type="text" class="form-control" style="width:100%;height:90px" placeholder="twitterhandle">
+                                                <a href="#" class="thumbnail" style="width:80px;height:80px;">
+                                                        <img src="/wp-content/uploads/2014/06/kittens.jpg"
+                                                             alt="通用的占位符缩略图">
+                                                    </a>
+                                        </span>
+                                    </div>
+                                    <br>
+                                    <div class="input-group " style="width:90%;height:90px">
+                                            <span class="input-group-addon" style="width:100px;">签名</span>
+                                            <input type="text" class="form-control" style="width:100%;height:100%;">
+                                        </div>
+                                    <br>
+                                    <div class="input-group " style="width:90%;">
+                                        <span class="input-group-addon" style="width:100px;">个人信息</span>
+                                        <span type="text" class="form-control" style="width:100%;height:100%;">
+                                            <div class="input-group a" style="width:100%;">
+                                                <span class="input-group-addon" style="width:100px;">账号</span>
+                                                <input type="text" class="form-control" style="width:100%;height:100%;" readonly="value">
+                    
+                                            </div>
+                                            <div class="input-group a" style="width:100%;">
+                                                <span class="input-group-addon" style="width:100px;">姓名</span>
+                                                <input type="text" class="form-control" style="width:100%;height:100%;">
+                                                 
+                                            </div>
+                                            <div class="  col-lg-6 col-md-6 col-sm-6 row">
+                                                    <div class="input-group a" style="width:100%;">
+                                                            <span class="input-group-addon" style="width:100px;">邮政编码</span>
+                                                            <input type="text" class="form-control" style="width:100%;height:100%;">
+                                                     
+                                                        </div>
+                                                        <div class="input-group a" style="width:100%;">
+                                                            <span class="input-group-addon" style="width:100px;">电话</span>
+                                                            <input type="text" class="form-control" style="width:100%;height:100%;">                 
+                                                        </div>
+                                            </div>
+                                            <div class="  col-lg-6 col-md-6 col-sm-6 " style="margin-left:30px;padding-right:0px">  
+                                                        <div class="input-group a" style="width:100%;">
+                                                            <span class="input-group-addon" style="width:100px;">传真</span>
+                                                            <input type="text" class="form-control" style="width:100%;height:100%;">
+                                                                
+                                                        </div>
+                                                        <div class="input-group a" style="width:100%;">
+                                                            <span class="input-group-addon" style="width:100px;">电子邮件</span>
+                                                            <input type="text" class="form-control" style="width:100%;height:100%;">
+                                                                
+                                                        </div>
+                                            </div>
+                                          
+                                            <div class="input-group a" style="width:100%;padding-top:10px">
+                                                <span class="input-group-addon" style="width:100px;">地址</span>
+                                                <input type="text" class="form-control" style="width:100%;height:100%;">
+                                                    
+                                            </div>
+                                        </span>
+                                    </div>
+                                </form>
+                            </div>
+                </div>
+                <div class="tab-pane fade" id="save">
+                    <p>jMeter 是一款开源的测试软件。它是 100% 纯 Java 应用程序，用于负载和性能测试。</p>
+                </div>
+    
+        </div>      
+    </div>                  
+</div>
+
+    
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="vue.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+    .a{
+        margin-top:10px
+    }
+    body{
+        padding-top: 50px;
+        width:100%;
+    }
+    .list-group{
+        margin-bottom: 0
+    }
+    #Man{
+        color: #808b9c;
+    }
+    a.list-group-item .list-group-item-heading{
+    padding-top: 0px;
+    color: #808b9c;
+
+    }
+    a.list-group-item{
+        border:none;   
+    }
+    .list-group-item,#userMeun>li>a{
+        padding:5px 15px
+    }
+    .list-group>a{
+        background: #333
+    }
+
+    #userMeun>li>a.active,.a.list-group-item:hover{
+        background:antiquewhite
+    }
+    .list-group-item.active{
+        background:antiquewhite
+    }
+    .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #808b9c;
+    background:antiquewhite;
+    border-color: #337ab7;
+}
+</style>
+<script>
+    $(function() {
+    $("a").click(function() {            
+            if($('a').is('.active')){
+                $("a").removeClass('active')
+            }
+            $(this).addClass('active')
+        //    $(this).css('background','antiquewhite')
+        });
+    
+    });
+  
+    var hei=$('nav').width()
+    var Hei=window.innerHeight-$('nav').height()
+    $('.list-group').height(Hei)
+    
+</script>
+</body>
+  </html>
